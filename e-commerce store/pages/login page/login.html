@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- CDJN FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- FLAT ICON CDJN -->
+    <link rel="stylesheet"
+        href="https://cdn-uicons.flaticon.com/2.4.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <!-- Tailwand CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- CUSTOME CSS -->
+    <!-- <link rel="stylesheet" href="../style.css"> -->
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-96">
+        <h2 class="text-2xl font-bold mb-4">Login</h2>
+        <form action="#">
+            <div class="mb-4">
+                <label class="block text-gray-700" for="email">Email</label>
+                <input class="w-full px-4 py-2 border rounded-lg" type="email" id="email"
+                    placeholder="Enter your email">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700" for="password">Password</label>
+                <input class="w-full px-4 py-2 border rounded-lg" type="password" id="password"
+                    placeholder="Enter your password">
+            </div>
+            <button class="w-full px-4 py-2 bg-black text-white rounded-lg">Login</button>
+        </form>
+        <p class="mt-4 text-gray-600">Don't have an account? <a href="/pages/signup page/signup.html" class="text-blue">Sign up</a>
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <!-- <footer class="bg-white shadow mt-6 p-6">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-600">© 2024 eCommerce Store. All rights reserved.</p>
+        </div>
+    </footer> -->
+
+    <script type="module" src="login.js"></script>
+</body>
+
+</html>
